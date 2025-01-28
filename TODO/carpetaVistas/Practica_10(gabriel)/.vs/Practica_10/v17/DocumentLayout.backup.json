@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\DAM\\source\\repos\\Practica_10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\mainpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\cargarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\cargarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\cargarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\cargarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Practica_10\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|g:\\dam\\source\\repos\\practica_10\\practica_10\\practica_10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8574328A-E0A0-48DE-B2DB-D969013B1919}|Practica_10\\Practica_10.csproj|solutionrelative:practica_10\\practica_10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CargarPage.xaml",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\CargarPage.xaml",
+              "RelativeDocumentMoniker": "Practica_10\\CargarPage.xaml",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\CargarPage.xaml",
+              "RelativeToolTip": "Practica_10\\CargarPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T21:58:17.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CargarPage.xaml.cs",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\CargarPage.xaml.cs",
+              "RelativeDocumentMoniker": "Practica_10\\CargarPage.xaml.cs",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\CargarPage.xaml.cs",
+              "RelativeToolTip": "Practica_10\\CargarPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:56:30.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Practica_10\\AppShell.xaml.cs",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\AppShell.xaml.cs",
+              "RelativeToolTip": "Practica_10\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:28:02.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Practica_10\\AppShell.xaml",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\AppShell.xaml",
+              "RelativeToolTip": "Practica_10\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T19:27:59.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Practica_10\\App.xaml.cs",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\App.xaml.cs",
+              "RelativeToolTip": "Practica_10\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T19:08:46.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Practica_10.csproj",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\Practica_10.csproj",
+              "RelativeDocumentMoniker": "Practica_10\\Practica_10.csproj",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\Practica_10.csproj",
+              "RelativeToolTip": "Practica_10\\Practica_10.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-16T18:54:54.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\App.xaml",
+              "RelativeDocumentMoniker": "Practica_10\\App.xaml",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\App.xaml",
+              "RelativeToolTip": "Practica_10\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T19:00:39.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Practica_10\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Practica_10\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAIBZwEQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T17:52:21.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Practica_10\\MauiProgram.cs",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\MauiProgram.cs",
+              "RelativeToolTip": "Practica_10\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:15:10.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Practica_10\\MainPage.xaml.cs",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\MainPage.xaml.cs",
+              "RelativeToolTip": "Practica_10\\MainPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:43:30.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Practica_10\\MainPage.xaml",
+              "ToolTip": "G:\\DAM\\source\\repos\\Practica_10\\Practica_10\\MainPage.xaml",
+              "RelativeToolTip": "Practica_10\\MainPage.xaml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAcwIIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T14:27:42.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

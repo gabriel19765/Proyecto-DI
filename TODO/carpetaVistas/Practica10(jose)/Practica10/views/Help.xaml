@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Practica10.views.Help"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="0,40"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="700">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Frame
+                        BackgroundColor="{StaticResource ColorVerdeBase}"
+                        HeightRequest="40">
+                        <HorizontalStackLayout Padding="5" Spacing="5">
+                            <ImageButton
+                                Padding="0"
+                                Background="Transparent"
+                                BorderWidth="0"
+                                Clicked="GoBack"
+                                HorizontalOptions="Start"
+                                Source="back.png"
+                                WidthRequest="20" />
+
+                            <Button
+                                Padding="5"
+                                BackgroundColor="Transparent"
+                                BorderWidth="0"
+                                Clicked="GoBack"
+                                HorizontalOptions="Start"
+                                Text="Atras" />
+                        </HorizontalStackLayout>
+                    </Frame>
+                </Grid>
+
+                <Label
+                    Margin="0,10,0,0"
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    Text="Introducción" />
+                <Label Text="Bienvenido a nuestra aplicación de gestión de faltas del profesorado. A continuación, se describirá el flujo completo de la aplicación y las funcionalidades que puedes encontrar." />
+
+                <BoxView
+                    Margin="0,10"
+                    BackgroundColor="Gray"
+                    HeightRequest="1" />
+
+                <Label
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    Text="Inicio de la Aplicación" />
+                <Label Text="Al iniciar la aplicación, esta intentará automáticamente conectarse a la base de datos. Si se produce algún problema durante la conexión:" />
+                <Label Text="1. Se mostrará un mensaje indicando el error." />
+                <Label Text="2. Tendrás la opción de Reintentar para volver a intentar conectar con la base de datos." />
+                <Label Text="Una vez que la conexión sea exitosa, podrás continuar al siguiente paso." />
+
+                <BoxView
+                    Margin="0,10"
+                    BackgroundColor="Gray"
+                    HeightRequest="1" />
+
+                <Label
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    Text="Página Principal: Búsqueda de Profesores" />
+                <Label Text="Después de conectarte a la base de datos, llegarás a la página principal, donde puedes buscar profesores." />
+                <Label Text="Las funcionalidades principales de esta página son:" />
+                <Label Text="- Barra de búsqueda: Puedes escribir el nombre del profesor para filtrar la lista." />
+                <Label Text="- Lista de profesores: A medida que escribes, se mostrarán los profesores que coincidan con tu búsqueda." />
+                <Label Text="- Selección de profesor: Una vez que selecciones un profesor, verás información detallada sobre él:" />
+                <Label Text="  - Apellidos y nombre." />
+                <Label Text="  - Número de faltas registradas." />
+                <Label Text="  - Estado laboral: Fijo o temporal." />
+                <Label Text="  - Contacto del profesor: Correo electrónico y número de teléfono." />
+
+                <Label Text="Desde esta página, podrás avanzar al calendario del profesor seleccionado presionando el botón Continuar." />
+                <Label FontAttributes="Italic" Text="Nota: Si no hay ningún profesor seleccionado, no podrás continuar." />
+
+                <BoxView
+                    Margin="0,10"
+                    BackgroundColor="Gray"
+                    HeightRequest="1" />
+
+                <Label
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    Text="Página del Calendario del Profesor" />
+                <Label Text="En la página del calendario, verás todas las faltas registradas para el profesor seleccionado. Aquí puedes:" />
+                <Label Text="- Visualizar faltas: Los días con faltas aparecerán marcados en el calendario." />
+                <Label Text="- Seleccionar una fecha: Al elegir un día con una falta, se mostrará la información de la falta:" />
+                <Label Text="  - Fecha (que también es el nombre de la falta)." />
+                <Label Text="  - Tipo de falta." />
+                <Label Text="  - Comentario opcional (si se proporcionó)." />
+
+                <Label
+                    Margin="0,10,0,0"
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    Text="Opciones Disponibles" />
+                <Label Text="1. Agregar Falta:" />
+                <Label Text="   - Aparecerá un menú donde puedes:" />
+                <Label Text="     - Seleccionar el tipo de falta." />
+                <Label Text="     - Agregar un comentario opcional." />
+                <Label Text="2. Eliminar Falta:" />
+                <Label Text="   - Si seleccionas esta opción, se te pedirá confirmación antes de eliminar la falta." />
+                <Label Text="3. Modificar Falta:" />
+                <Label Text="   - Podrás modificar el tipo de falta o el comentario asociado." />
+
+                <Label FontAttributes="Italic" Text="Nota: Los botones de eliminar y modificar estarán deshabilitados si no hay ninguna falta seleccionada." />
+
+                <Label
+                    Margin="0,10,0,0"
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    Text="Volver al Buscador" />
+                <Label Text="Siempre tendrás un botón disponible para regresar al buscador de profesores y seleccionar otro docente." />
+
+                <BoxView
+                    Margin="0,10"
+                    BackgroundColor="Gray"
+                    HeightRequest="1" />
+
+                <Label
+                    Padding="0,30,0,10"
+                    FontAttributes="Bold"
+                    FontSize="Subtitle"
+                    Text="Resumen del Flujo" />
+                <Label Text="1. Inicio: La aplicación intenta conectarse a la base de datos." />
+                <Label Text="2. Búsqueda de Profesores: Filtrar y seleccionar un profesor." />
+                <Label Text="3. Información del Profesor: Visualizar detalles del profesor seleccionado." />
+                <Label Text="4. Calendario del Profesor: Consultar faltas, agregar, eliminar o modificar." />
+                <Label Text="5. Regreso: Volver al buscador desde cualquier punto." />
+
+                <BoxView
+                    Margin="0,10"
+                    BackgroundColor="Gray"
+                    HeightRequest="1" />
+
+                <Label Text="Esperamos que esta guía te ayude a navegar y aprovechar todas las funcionalidades de la aplicación." />
+            </VerticalStackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  Paleta de Colores Vivos  -->
+
+    <Color x:Key="ColorFondoBlanco">#FFFFFF</Color>
+    <Color x:Key="ColorTextoNegro">#000000</Color>
+
+    <Color x:Key="ColorVerdeBase">#498e4d</Color>
+    <Color x:Key="ColorVerdeClaro">#95e197</Color>
+    <Color x:Key="ColorGrisClaro">#ededed</Color>
+    <Color x:Key="ColorGrisSuave">#dddddd</Color>
+    <Color x:Key="ColorGrisOscuro">#7a7a7a</Color>
+    <Color x:Key="ColorError">#D32F2F</Color>
+    <Color x:Key="ColorDisabled">#bce1bd</Color>
+
+</ResourceDictionary>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="Practica_10.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:scheduler="http://schemas.syncfusion.com/maui"
+    BackgroundColor="White">
+
+    <!--  ScrollView para habilitar desplazamiento en la pantalla  -->
+    <ScrollView>
+
+        <VerticalStackLayout Padding="10">
+
+            <!--  Encabezado con logo y barra de búsqueda  -->
+            <HorizontalStackLayout>
+
+                <!--  Contenedor de logo y barra de búsqueda  -->
+                <Grid Padding="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Imagen del logo alineada a la izquierda  -->
+                    <Image
+                        HeightRequest="100"
+                        HorizontalOptions="Start"
+                        Source="serra.png"
+                        TranslationX="-300"
+                        WidthRequest="870" />
+
+                    <!--  Barra de búsqueda alineada a la derecha
+                    <SearchBar
+                        Margin="20,0,0,0"
+                        BackgroundColor="#BDBDBD"
+                        HeightRequest="10"
+                        HorizontalOptions="End"
+                        HorizontalTextAlignment="End"
+                        Placeholder="Buscar profesor"
+                        PlaceholderColor="Gray"
+                        TextColor="Black"
+                        WidthRequest="500" />-->
+                </Grid>
+
+                <!--  Botones para interacciones  -->
+                <Button
+                    Margin="10,0,0,0"
+                    BackgroundColor="PaleGreen"
+                    HeightRequest="10"
+                    Text="Agregar falta" />
+                <Button
+                    Margin="10,0,0,0"
+                    BackgroundColor="PaleGreen"
+                    HeightRequest="10"
+                    Text="Modificar falta" />
+                <Button
+                    Margin="10,0,0,0"
+                    BackgroundColor="PaleGreen"
+                    HeightRequest="10"
+                    Text="Eliminar falta" />
+
+            </HorizontalStackLayout>
+
+            <!--  Separador visual  -->
+            <BoxView HeightRequest="1" Color="#D3D3D3" />
+
+            <!--  Calendario y resumen  -->
+            <HorizontalStackLayout Spacing="20">
+
+                <!--  Calendario con vista mensual  -->
+                <scheduler:SfScheduler
+                    x:Name="SchedulerControl"
+                    BackgroundColor="White"
+                    FirstDayOfWeek="Monday"
+                    HorizontalOptions="StartAndExpand"
+                    SelectionChanged="Scheduler_SelectionChanged"
+                    View="Month"
+                    WidthRequest="600" />
+
+                <!--  Resumen y leyenda  -->
+                <VerticalStackLayout HorizontalOptions="EndAndExpand" Spacing="10">
+
+                    <!--  Título de la leyenda  -->
+                    <Label
+                        FontAttributes="Bold"
+                        FontSize="18"
+                        HorizontalOptions="Center"
+                        Text="Leyenda"
+                        TextColor="Black" />
+
+                    <!--  Leyenda de tipos de faltas  -->
+                    <HorizontalStackLayout Spacing="5" WidthRequest="800">
+                        <Label Text="| Falta Justificada - Verde" TextColor="Green" />
+                        <Label Text="| Falta sin Justificar - Rojo" TextColor="Red" />
+                        <Label Text="| Falta Recuperada - Azul" TextColor="Blue" />
+                        <Label Text="| Faltas Reclamadas - Naranja" TextColor="Orange" />
+                    </HorizontalStackLayout>
+
+                    <!--  Resumen de profesor y fechas  -->
+                    <Label
+                        FontAttributes="Bold"
+                        Text="Resumen"
+                        TextColor="Black" />
+
+                    <!--  Información sobre el profesor y las fechas  -->
+                    <HorizontalStackLayout>
+                        <Label
+                            Margin="0,10,0,0"
+                            Text="Profesor:"
+                            TextColor="Black" />
+                        <Entry
+                            Margin="20,0,0,0"
+                            BackgroundColor="#BDBDBD"
+                            HeightRequest="10"
+                            TextColor="Black"
+                            WidthRequest="625" />
+                    </HorizontalStackLayout>
+
+                    <!--  Información sobre el día, mes y año  -->
+                    <HorizontalStackLayout HorizontalOptions="Center">
+                        <Label
+                            Margin="0,10,10,0"
+                            Text="Día:"
+                            TextColor="Black" />
+                        <Entry
+                            x:Name="DayEntry"
+                            Margin="20,0,10,0"
+                            BackgroundColor="#BDBDBD"
+                            HeightRequest="10"
+                            IsReadOnly="True"
+                            TextColor="Black"
+                            WidthRequest="100" />
+                        <Label
+                            Margin="0,10,10,0"
+                            Text="Mes:"
+                            TextColor="Black" />
+                        <Entry
+                            x:Name="MonthEntry"
+                            Margin="20,0,10,0"
+                            BackgroundColor="#BDBDBD"
+                            HeightRequest="10"
+                            IsReadOnly="True"
+                            TextColor="Black"
+                            WidthRequest="100" />
+                        <Label
+                            Margin="0,10,10,0"
+                            Text="Año:"
+                            TextColor="Black" />
+                        <Entry
+                            x:Name="YearEntry"
+                            Margin="20,0,10,0"
+                            BackgroundColor="#BDBDBD"
+                            HeightRequest="10"
+                            IsReadOnly="True"
+                            TextColor="Black"
+                            WidthRequest="100" />
+                    </HorizontalStackLayout>
+
+                    <!--  Tipos de faltas  -->
+                    <VerticalStackLayout>
+                        <Label
+                            FontAttributes="Bold"
+                            Text="Tipos"
+                            TextColor="Black" />
+                    </VerticalStackLayout>
+
+                    <!--  Botones de acción para tipos de faltas  -->
+                    <HorizontalStackLayout
+                        HeightRequest="50"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center">
+                        <Button
+                            BackgroundColor="LimeGreen"
+                            Text="Justificada"
+                            WidthRequest="120" />
+                        <Button
+                            BackgroundColor="Red"
+                            Text="Sin Justificar"
+                            WidthRequest="120" />
+                        <Button
+                            BackgroundColor="Blue"
+                            Text="Recuperada"
+                            TextColor="White"
+                            WidthRequest="120" />
+                        <Button
+                            BackgroundColor="Yellow"
+                            Text="Reclamada"
+                            WidthRequest="120" />
+                    </HorizontalStackLayout>
+                    <Label
+                        FontAttributes="Bold"
+                        Text="Informacion adicional"
+                        TextColor="Black" />
+                    <Editor
+                        BackgroundColor="#BDBDBD"
+                        HeightRequest="75"
+                        HorizontalOptions="FillAndExpand"
+                        TextColor="Black"
+                        VerticalOptions="StartAndExpand"
+                        WidthRequest="600" />
+
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+
+            <!--  Separador visual  -->
+            <BoxView
+                Margin="0,10,0,0"
+                HeightRequest="1"
+                Color="#D3D3D3" />
+
+            <!--  Botones de acción para aceptar o cancelar  -->
+            <Grid Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!--  Botón de confirmación  -->
+                <Button
+                    Grid.Column="0"
+                    BackgroundColor="PaleGreen"
+                    HorizontalOptions="Start"
+                    Text="Aplicar"
+                    WidthRequest="100" />
+
+                <!--  Botón de cancelación  -->
+                <Button
+                    Grid.Column="1"
+                    BackgroundColor="PaleGreen"
+                    HorizontalOptions="End"
+                    Text="Modificar tipos de falta" />
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

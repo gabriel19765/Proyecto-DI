@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Practica10.views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            HorizontalOptions="Center"
+            Spacing="25"
+            VerticalOptions="Center">
+            <Image HeightRequest="100" Source="serra.png" />
+            <Label
+                HorizontalTextAlignment="Center"
+                Style="{StaticResource TitleLabel}"
+                Text="CONECTANDO A LA BASE DE DATOS" />
+            <Label
+                HorizontalTextAlignment="Center"
+                Style="{StaticResource SubtitleLabel}"
+                Text="Conectandose a la base de datos de faltas..." />
+            <Image Source="database.png" WidthRequest="100" />
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                <Button
+                    Clicked="ConnectDatabase"
+                    IsEnabled="True"
+                    Text="Reintentar">
+                    <Button.Triggers>
+                        <DataTrigger
+                            Binding="{Binding IsEnabled, Source={RelativeSource Self}}"
+                            TargetType="Button"
+                            Value="False">
+                            <Setter Property="BackgroundColor" Value="{StaticResource ColorDisabled}" />
+                        </DataTrigger>
+                    </Button.Triggers>
+                </Button>
+                <Button
+                    Clicked="GoToBuscador"
+                    IsEnabled="True"
+                    Text="Continuar">
+                    <Button.Triggers>
+                        <DataTrigger
+                            Binding="{Binding IsEnabled, Source={RelativeSource Self}}"
+                            TargetType="Button"
+                            Value="False">
+                            <Setter Property="BackgroundColor" Value="{StaticResource ColorDisabled}" />
+                        </DataTrigger>
+                    </Button.Triggers>
+                </Button>
+            </HorizontalStackLayout>
+            <Grid VerticalOptions="Center">
+                <ImageButton
+                    Padding="0"
+                    Clicked="GoToHelp"
+                    HeightRequest="39"
+                    HorizontalOptions="Start"
+                    Source="help.png"
+                    Style="{StaticResource SecondaryImageButton}" />
+
+                <Label
+                    FontSize="Caption"
+                    HorizontalOptions="End"
+                    Text="Gestión de faltas del profesorado - Version 1.0.0"
+                    TextColor="{StaticResource Gray200}"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage
+    x:Class="Practica_10.CargarPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="White">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Fill">
+        <Label
+            Margin="0,0,0,100"
+            FontAttributes="Bold"
+            FontSize="30"
+            Text="Intentando acceder a la base de datos"
+            TextColor="Black" />
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button
+                x:Name="btnFaltas"
+                BackgroundColor="PaleGreen"
+                Clicked="GoToMain_Clicked"
+                IsEnabled="False"
+                Text="Poner faltas" />
+            <Button
+                BackgroundColor="PaleGreen"
+                Clicked="activar_btn"
+                Text="Reintentar" />
+        </HorizontalStackLayout>
+        <ImageButton
+            Margin="0,300,0,0"
+            Clicked="ImageButton_OnClicked"
+            HeightRequest="100"
+            HorizontalOptions="End"
+            Source="icon.png"
+            VerticalOptions="End"
+            WidthRequest="100" />
+    </StackLayout>
+</ContentPage>
